@@ -9,4 +9,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Scikit-Learn Overview](./Machine-Learning/sckitlearn.md) - April 18: A deep dive into the industry-standard library for machine learning, featuring a Linear Regression template and core module breakdowns.
 * [ML Project Lifecycle](./Machine-Learning/ML_Lifecycle.md) - April 19: An in-depth guide covering the end-to-end stages of a machine learning project, from problem definition to deployment and monitoring.
 * [Linear Regression](./Machine-Learning/Linear_Regression.md) - April 20: Detailed theory, mathematical model, and Python implementation using Scikit-Learn.
-* [Underfitting & Overfitting](Underfitting%20&%20Overfitting.md) - April 21: A comprehensive guide on the Bias-Variance tradeoff and techniques to optimize model generalization.
+* [Underfitting & Overfitting](Machine-Learning/Underfitting%20&%20Overfitting.md) - April 21
