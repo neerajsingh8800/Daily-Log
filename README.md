@@ -12,3 +12,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Underfitting & Overfitting](Machine-Learning/Underfitting%20&%20Overfitting.md) - April 21
 * [Lasso & Ridge Regression](https://github.com/neerajsingh8800/Daily-Log/blob/main/Machine-Learning/Lasso%20%26%20Ridge%20Regression.md) - April 22: Deep dive into L1 and L2 regularization, feature selection, and using Cross-Validation (CV) to find optimal penalty strengths.
 * [Logistic Regression](./Machine-Learning/Logistic_Regression.md) - April 23: Theory, Sigmoid Function, and Python Implementation.
+* [Naive Bayes](Naive_bais.md) - April 24: Theory, Bayes' Theorem, and Python implementation using Scikit-Learn.
