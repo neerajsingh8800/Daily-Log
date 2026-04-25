@@ -13,3 +13,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Lasso & Ridge Regression](https://github.com/neerajsingh8800/Daily-Log/blob/main/Machine-Learning/Lasso%20%26%20Ridge%20Regression.md) - April 22: Deep dive into L1 and L2 regularization, feature selection, and using Cross-Validation (CV) to find optimal penalty strengths.
 * [Logistic Regression](./Machine-Learning/Logistic_Regression.md) - April 23: Theory, Sigmoid Function, and Python Implementation.
 * [Naive Bayes](./Machine-Learning/Naive_bayes.md) - April 24: Theory, Bayes' Theorem, and Python implementation using Scikit-Learn.
+* [K-Nearest Neighbors (KNN)](./Machine-Learning/KNN.md) - April 25: A comprehensive guide on the Lazy Learner algorithm, distance metrics (Euclidean, Manhattan, Minkowski), and Python implementation.
