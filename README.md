@@ -14,3 +14,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Logistic Regression](./Machine-Learning/Logistic_Regression.md) - April 23: Theory, Sigmoid Function, and Python Implementation.
 * [Naive Bayes](./Machine-Learning/Naive_bayes.md) - April 24: Theory, Bayes' Theorem, and Python implementation using Scikit-Learn.
 * [K-Nearest Neighbors (KNN)](./Machine-Learning/KNN.md) - April 25: A comprehensive guide on the Lazy Learner algorithm, distance metrics (Euclidean, Manhattan, Minkowski), and Python implementation.
+* [K-Means Clustering](./Machine-Learning/kmeans_clustering.md) - April 26: Comprehensive guide covering the iterative centroid algorithm, WCSS math, the Elbow Method, and Scikit-Learn implementation.
