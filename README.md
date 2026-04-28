@@ -16,3 +16,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [K-Nearest Neighbors (KNN)](./Machine-Learning/KNN.md) - April 25: A comprehensive guide on the Lazy Learner algorithm, distance metrics (Euclidean, Manhattan, Minkowski), and Python implementation.
 * [K-Means Clustering](./Machine-Learning/kmeans_clustering.md) - April 26: Comprehensive guide covering the iterative centroid algorithm, WCSS math, the Elbow Method, and Scikit-Learn implementation.
 * [Random Forest](./Machine-Learning/Random_forest.md) - April 27: An explanation of Ensemble Learning, Bagging, and how multiple Decision Trees combine to improve accuracy.
+* [Decision Trees](./Machine-Learning/Decision_Trees.md) - April 28: A comprehensive guide on tree-based modeling, covering Entropy, Gini Impurity, and Scikit-Learn implementation.
