@@ -20,3 +20,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Support Vector Machines (SVM)](./Machine-Learning/SVM.md) - April 29: A deep dive into maximal margin classifiers, the mathematical foundations of hyperplanes, and the Kernel Trick for non-linear separation.
 * [Feature Engineering](./Machine-Learning/Feature_Engineering.md) - April 30: A comprehensive guide on data preprocessing, including handling missing values, encoding, scaling, and outlier management.
 * [CatBoost](./Machine-Learning/CatBoost.md) - May 01: Comprehensive guide on Categorical Boosting, Ordered Target Statistics, and implementing the algorithm for handling categorical data.
+* [Bias & Variance Tradeoff](./Machine-Learning/Bias_and_Variance_Tradeoff.md) - May 02: A detailed look at model error decomposition, mathematical formulas for bias/variance, and a Python implementation showing the sweet spot between underfitting and overfitting.
