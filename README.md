@@ -24,3 +24,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Principal Component Analysis (PCA)](./Machine-Learning/PCA.md) - May 03: Comprehensive guide covering dimensionality reduction, standardization, covariance matrices, and Scikit-Learn implementation.
 * [Hyperparameter Tuning](./Machine-Learning/Hyperparameter_Tuning.md) - May 04: A deep dive into Grid Search, Random Search, and Cross-Validation with Python implementation.
 * [Model Evaluation Metrics](./Machine-Learning/Model_Evaluation_Metrics.md) - May 05: A comprehensive guide on Classification (Accuracy, Precision, Recall, F1) and Regression (MAE, MSE, R2) metrics with mathematical formulas and Python implementation.
+* [Mathematical Prerequisites for Deep Learning](./Deep-Learning/01_Mathematical_Prerequisites.md) - May 06: Essential Linear Algebra, Calculus, and Probability for Neural Networks.
