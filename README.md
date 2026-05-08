@@ -26,3 +26,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Model Evaluation Metrics](./Machine-Learning/Model_Evaluation_Metrics.md) - May 05: A comprehensive guide on Classification (Accuracy, Precision, Recall, F1) and Regression (MAE, MSE, R2) metrics with mathematical formulas and Python implementation.
 * [Mathematical Prerequisites for Deep Learning](./Deep-Learning/01_Mathematical_Prerequisites.md) - May 06: Essential Linear Algebra, Calculus, and Probability for Neural Networks.
 * [Perceptrons and Neural Networks](./Deep-Learning/02_Perceptrons_and_Neural_Networks.md) - May 07: A deep dive into the transition from single-layer linear classifiers to Multi-Layer Perceptrons (MLP) with NumPy implementation.
+* [Activation Functions](./Deep-Learning/03_Activation_Functions.md) - May 08: Deep dive into non-linearities, covering Sigmoid, Tanh, ReLU, and Softmax with NumPy implementations.
