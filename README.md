@@ -27,3 +27,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Mathematical Prerequisites for Deep Learning](./Deep-Learning/01_Mathematical_Prerequisites.md) - May 06: Essential Linear Algebra, Calculus, and Probability for Neural Networks.
 * [Perceptrons and Neural Networks](./Deep-Learning/02_Perceptrons_and_Neural_Networks.md) - May 07: A deep dive into the transition from single-layer linear classifiers to Multi-Layer Perceptrons (MLP) with NumPy implementation.
 * [Activation Functions](./Deep-Learning/03_Activation_Functions.md) - May 08: Deep dive into non-linearities, covering Sigmoid, Tanh, ReLU, and Softmax with NumPy implementations.
+* [Loss Functions](./Deep-Learning/04_Loss_Functions.md) - May 09: Detailed guide on Regression and Classification losses, including MSE, MAE, and Cross-Entropy math.
