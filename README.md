@@ -28,3 +28,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Perceptrons and Neural Networks](./Deep-Learning/02_Perceptrons_and_Neural_Networks.md) - May 07: A deep dive into the transition from single-layer linear classifiers to Multi-Layer Perceptrons (MLP) with NumPy implementation.
 * [Activation Functions](./Deep-Learning/03_Activation_Functions.md) - May 08: Deep dive into non-linearities, covering Sigmoid, Tanh, ReLU, and Softmax with NumPy implementations.
 * [Loss Functions](./Deep-Learning/04_Loss_Functions.md) - May 09: Detailed guide on Regression and Classification losses, including MSE, MAE, and Cross-Entropy math.
+* [Optimizers](./Deep-Learning/05_Optimizers.md) - May 10: Comparative analysis of SGD, Momentum, RMSProp, and Adam with bias-corrected implementations.
