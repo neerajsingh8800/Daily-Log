@@ -29,3 +29,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Activation Functions](./Deep-Learning/03_Activation_Functions.md) - May 08: Deep dive into non-linearities, covering Sigmoid, Tanh, ReLU, and Softmax with NumPy implementations.
 * [Loss Functions](./Deep-Learning/04_Loss_Functions.md) - May 09: Detailed guide on Regression and Classification losses, including MSE, MAE, and Cross-Entropy math.
 * [Optimizers](./Deep-Learning/05_Optimizers.md) - May 10: Comparative analysis of SGD, Momentum, RMSProp, and Adam with bias-corrected implementations.
+* [Backpropagation and Chain Rule](./Deep-Learning/06_Backpropagation_and_Chain_Rule.md) - May 11: Mathematical derivation of the chain rule in neural networks and manual NumPy implementation.
