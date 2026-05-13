@@ -31,3 +31,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Optimizers](./Deep-Learning/05_Optimizers.md) - May 10: Comparative analysis of SGD, Momentum, RMSProp, and Adam with bias-corrected implementations.
 * [Backpropagation and Chain Rule](./Deep-Learning/06_Backpropagation_and_Chain_Rule.md) - May 11: Mathematical derivation of the chain rule in neural networks and manual NumPy implementation.
 * [Regularization Techniques](./Deep-Learning/07_Regularization_Techniques.md) - May 12: Understanding Overfitting, L1/L2 Regularization, and Dropout with NumPy-based mask implementation.
+* [Normalization Methods](./Deep-Learning/08_Normalization_Methods.md) - May 13: Comparative study of Batch and Layer Normalization to address internal covariate shift.
