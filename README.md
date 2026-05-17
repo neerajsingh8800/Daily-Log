@@ -35,3 +35,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Weight Initialization](./Deep-Learning/09_Weight_Initialization.md) - May 14: Analyzing Xavier and He initialization techniques to prevent vanishing and exploding gradients.
 * [CNN Fundamentals](./Deep-Learning/10_CNN_Fundamentals.md) - May 15: Introduction to Computer Vision, covering Convolutions, Kernels, Padding, and Stride mechanics.
 * [Pooling and Feature Maps](./Deep-Learning/11_Pooling_and_Feature_Maps.md) - May 16: Understanding spatial variance reduction through Max and Average Pooling techniques.
+* [Classic CNN Architectures](./Deep-Learning/12_Classic_CNN_Architectures.md) - May 17: Deep analysis of LeNet, VGG effective receptive fields, and ResNet identity shortcuts with structural PyTorch code.
