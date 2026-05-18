@@ -36,4 +36,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [CNN Fundamentals](./Deep-Learning/10_CNN_Fundamentals.md) - May 15: Introduction to Computer Vision, covering Convolutions, Kernels, Padding, and Stride mechanics.
 * [Pooling and Feature Maps](./Deep-Learning/11_Pooling_and_Feature_Maps.md) - May 16: Understanding spatial variance reduction through Max and Average Pooling techniques.
 * [Classic CNN Architectures](./Deep-Learning/12_Classic_CNN_Architectures.md) - May 17: Deep analysis of LeNet, VGG effective receptive fields, and ResNet identity shortcuts with structural PyTorch code.
-* [Sequence Modeling & RNNs](./Deep-Learning/13_Recurrent_Neural_Networks.md) - May 18: Foundations of sequential data tracking, unrolled forward processing loops, and BPTT structural bottlenecks.
+* [Sequence Modeling & RNNs](./Deep-Learning/13_Sequence_Modeling_and_RNNs.md) - May 18: Foundations of sequential data tracking, unrolled forward processing loops, and BPTT structural bottlenecks.
