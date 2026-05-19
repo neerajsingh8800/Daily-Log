@@ -37,3 +37,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Pooling and Feature Maps](./Deep-Learning/11_Pooling_and_Feature_Maps.md) - May 16: Understanding spatial variance reduction through Max and Average Pooling techniques.
 * [Classic CNN Architectures](./Deep-Learning/12_Classic_CNN_Architectures.md) - May 17: Deep analysis of LeNet, VGG effective receptive fields, and ResNet identity shortcuts with structural PyTorch code.
 * [Sequence Modeling & RNNs](./Deep-Learning/13_Sequence_Modeling_and_RNNs.md) - May 18: Foundations of sequential data tracking, unrolled forward processing loops, and BPTT structural bottlenecks.
+* [LSTMs and GRUs](./Deep-Learning/14_LSTMs_and_GRUs.md) - May 19: Mathematical framing of internal gating mechanisms and custom PyTorch recurrent network sequence components.
