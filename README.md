@@ -38,3 +38,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Classic CNN Architectures](./Deep-Learning/12_Classic_CNN_Architectures.md) - May 17: Deep analysis of LeNet, VGG effective receptive fields, and ResNet identity shortcuts with structural PyTorch code.
 * [Sequence Modeling & RNNs](./Deep-Learning/13_Sequence_Modeling_and_RNNs.md) - May 18: Foundations of sequential data tracking, unrolled forward processing loops, and BPTT structural bottlenecks.
 * [LSTMs and GRUs](./Deep-Learning/14_LSTMs_and_GRUs.md) - May 19: Mathematical framing of internal gating mechanisms and custom PyTorch recurrent network sequence components.
+* [Word Embeddings](./Deep-Learning/15_Word_Embeddings.md) - May 20: Explaining geometric semantic projection, CBOW vs. Skip-gram mechanics, and Negative Sampling equations.
