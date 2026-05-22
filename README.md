@@ -40,3 +40,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [LSTMs and GRUs](./Deep-Learning/14_LSTMs_and_GRUs.md) - May 19: Mathematical framing of internal gating mechanisms and custom PyTorch recurrent network sequence components.
 * [Word Embeddings](./Deep-Learning/15_Word_Embeddings.md) - May 20: Explaining geometric semantic projection, CBOW vs. Skip-gram mechanics, and Negative Sampling equations.
 * [Attention Mechanisms](./Deep-Learning/16_Attention_Mechanisms.md) - May 21: Overcoming sequence bottlenecks, mapping query-key-value frameworks, and Luong dot-product layer equations.
+* [The Transformer Architecture](./Deep-Learning/17_The_Transformer_Architecture.md) - May 22: Deep-dive into Self-Attention scaling metrics, Multi-Head splitting calculations, and structural PyTorch self-attention layer logic.
