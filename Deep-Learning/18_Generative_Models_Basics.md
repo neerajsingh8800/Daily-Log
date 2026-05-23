@@ -1,6 +1,6 @@
 # 18. Generative Models Basics (GANs & VAEs)
 
-While discriminative models learn the conditional probability distribution $P(y \mid \mathbf{x})$ to predict labels from data, generative models learn the underlying joint probability distribution $P(\mathbf{x})$ (or $P(\mathbf{x}, y)$) to generate entirely new data points that look like the training data.
+While discriminative models learn the conditional probability distribution $P(y \mid \mathbf{x})$ to predict labels from data, generative models learn the underlying joint probability distribution $P(\mathbf{x})$ to generate entirely new data points that look like the training data.
 
 ---
 
