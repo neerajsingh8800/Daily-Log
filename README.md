@@ -41,3 +41,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Word Embeddings](./Deep-Learning/15_Word_Embeddings.md) - May 20: Explaining geometric semantic projection, CBOW vs. Skip-gram mechanics, and Negative Sampling equations.
 * [Attention Mechanisms](./Deep-Learning/16_Attention_Mechanisms.md) - May 21: Overcoming sequence bottlenecks, mapping query-key-value frameworks, and Luong dot-product layer equations.
 * [The Transformer Architecture](./Deep-Learning/17_The_Transformer_Architecture.md) - May 22: Deep-dive into Self-Attention scaling metrics, Multi-Head splitting calculations, and structural PyTorch self-attention layer logic.
+* [Generative Models Basics](./Deep-Learning/18_Generative_Models_Basics.md) - May 23: Reviewing implicit density GAN minimax goals, VAE structural ELBO math, and the structural reparameterization trick.
