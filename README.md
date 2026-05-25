@@ -43,3 +43,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [The Transformer Architecture](./Deep-Learning/17_The_Transformer_Architecture.md) - May 22: Deep-dive into Self-Attention scaling metrics, Multi-Head splitting calculations, and structural PyTorch self-attention layer logic.
 * [Generative Models Basics](./Deep-Learning/18_Generative_Models_Basics.md) - May 23: Reviewing implicit density GAN minimax goals, VAE structural ELBO math, and the structural reparameterization trick.
 * [Diffusion Models & Flows](./Deep-Learning/19_Diffusion_Models_and_Flows.md) - May 24: Mathematical breakdown of forward/reverse Markov chains, continuous flow ODE vector matching, and conditional time-step denoisers.
+* [LLM Decoding Strategies](./Deep-Learning/20_LLM_Decoding_Strategies.md) - May 25: Analyzing deterministic vs. stochastic text generation, temperature scaling adjustments, and top-k/top-p nucleus sampling filters.
