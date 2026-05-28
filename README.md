@@ -46,3 +46,5 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [LLM Decoding Strategies](./Deep-Learning/20_LLM_Decoding_Strategies.md) - May 25: Analyzing deterministic vs. stochastic text generation, temperature scaling adjustments, and top-k/top-p nucleus sampling filters.
 * [Fine-Tuning & PEFT (LoRA)](./Deep-Learning/21_Fine_Tuning_and_PEFT_LoRA.md) - May 26: Exploring the low intrinsic rank hypothesis, parameter efficiency optimizations, and custom structural LoRA linear layers.
 * [Model Quantization](./Deep-Learning/22.%20Model_Quantization.md) - May 27: Explaining affine quantization mapping math, scale factor derivations, and custom INT8 uniform precision simulation layers.
+* [Multimodal Architectures & Contrastive Learning (CLIP)](./Deep-Learning/23_Multimodal_Architectures_CLIP_and_Contrastive_Learning.md) - May 28: Explaining joint embedding spaces, InfoNCE loss mathematics, and custom structural CLIP dual-encoder layers with zero-shot evaluation.
+
