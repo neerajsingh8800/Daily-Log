@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
 ## 4. Zero-Shot Evaluation Pipeline
 One of the most powerful properties of CLIP is its ability to perform classification on tasks it was never explicitly trained on (zero-shot). Instead of outputting logits for $N$ predefined discrete categories, you feed the names of the categories into the model as text prompts.
-```
+```python
 def zero_shot_classification(image_tensor, class_names, model, tokenizer_fn):
     """
     Performs zero-shot classification on a single image across multiple custom strings.
