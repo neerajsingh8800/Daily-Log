@@ -48,4 +48,5 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Model Quantization](./Deep-Learning/22.%20Model_Quantization.md) - May 27: Explaining affine quantization mapping math, scale factor derivations, and custom INT8 uniform precision simulation layers.
 * [Multimodal Architectures & Contrastive Learning (CLIP)](./Deep-Learning/23_Multimodal_Architectures_CLIP_and_Contrastive_Learning.md) - May 28: Explaining joint embedding spaces, InfoNCE loss mathematics, and custom structural CLIP dual-encoder layers with zero-shot evaluation.
 * [Vision Transformers (ViT)](./Deep-Learning/24_Vision_Transformers_ViT.md) - May 29: Slicing image patches, linear flatten projection, positional embeddings, and writing a complete ViT network block from scratch in PyTorch.
+* [Graph Neural Networks (GNNs) ](./Deep-Learning/25_Graph_Neural_Networks_GNNs.md) - May 30: Transitioning to non-Euclidean data structures, neighborhood message passing frameworks, and implementing a custom normalized GCN layer from scratch in PyTorch.
 
