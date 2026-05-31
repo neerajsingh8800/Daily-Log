@@ -49,4 +49,4 @@ A daily record of concepts, code snippets, and logic puzzles I've mastered.
 * [Multimodal Architectures & Contrastive Learning (CLIP)](./Deep-Learning/23_Multimodal_Architectures_CLIP_and_Contrastive_Learning.md) - May 28: Explaining joint embedding spaces, InfoNCE loss mathematics, and custom structural CLIP dual-encoder layers with zero-shot evaluation.
 * [Vision Transformers (ViT)](./Deep-Learning/24_Vision_Transformers_ViT.md) - May 29: Slicing image patches, linear flatten projection, positional embeddings, and writing a complete ViT network block from scratch in PyTorch.
 * [Graph Neural Networks (GNNs) ](./Deep-Learning/25_Graph_Neural_Networks_GNNs.md) - May 30: Transitioning to non-Euclidean data structures, neighborhood message passing frameworks, and implementing a custom normalized GCN layer from scratch in PyTorch.
-
+* [LLM Alignment: RLHF & DPO](./Deep-Learning/26_LLM_Alignment_RLHF_and_DPO.md) - May 31: Mathematical breakdown of preference modeling, PPO constraints, and Direct Preference Optimization implementations.
