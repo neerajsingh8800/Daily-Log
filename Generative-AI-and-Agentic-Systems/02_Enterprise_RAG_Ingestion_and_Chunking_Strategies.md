@@ -49,13 +49,14 @@ Even within a parent-child structure, isolated text blocks can lose vital struct
 
 **Contextual Retrieval** eliminates this issue during ingestion by running a micro-analysis pass over each raw chunk using a fast LLM. The model creates a hyper-concise summary explaining where the chunk sits globally. This metadata wrapper is explicitly appended to the front of the text block before embedding calculation occurs:
 
-```python
+```text
 [Contextual Wrapper: This chunk is extracted from the 2025 financial performance section of ACME Corp, describing Q3 operational growth constraints.]
 The company's net revenue grew by 12%...
+```
 4. Production-Grade Implementation: Hierarchical Parent-Child Ingestion Engine
 Below is a complete, self-contained Python pipeline demonstrating structural token tracking, parent chunk formatting, and automated sub-chunking segmentation with relational metadata pointer tracking.
 
-Python
+```Python
 import re
 import uuid
 import math
