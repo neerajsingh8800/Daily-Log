@@ -29,7 +29,7 @@ Where:
 * $\mathbf{v}_{f_i}$ is the dense representation vector capturing the semantic description profile of tool schema $f_i$.
 
 ### The Developer's Leverage
-This formulation proves why **highly descriptive docstrings and parameter names are mathematically mandatory**. If your function descriptions are vague, the inner product $\mathbf{h}_t \cdot \mathbf{v}_{f_i}$ drops, causing the model to misroute inputs, skip essential tools, or experience structural selection confusion.
+This formulation proves why **highly descriptive docstrings and parameter names are mathematically mandatory**. If your function descriptions are vague, the inner product $\mathbf{h}_t\mathbf{v}_{f_i}$ drops, causing the model to misroute inputs, skip essential tools, or experience structural selection confusion.
 
 ---
 
