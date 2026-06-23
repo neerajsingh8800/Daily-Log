@@ -25,7 +25,7 @@ Let $F = \{f_1, f_2, \dots, f_k\}$ represent the collection of injected tool sch
 $$P(f_j \mid Q, w_{<t}) = \frac{\exp(\mathbf{h}_t \cdot \mathbf{v}_{f_j})}{\sum_{i=1}^{k} \exp(\mathbf{h}_t \cdot \mathbf{v}_{f_i})}$$
 
 Where:
-* $\mathbf{h}_t\cdot\mathbf{v}_{f_i}$ is the current hidden state vector emitted by the transformer's top layer at token step $t$.
+* $\mathbf{h}_t$ is the current hidden state vector emitted by the transformer's top layer at token step $t$.
 * $\mathbf{v}_{f_i}$ is the dense representation vector capturing the semantic description profile of tool schema $f_i$.
 
 ### The Developer's Leverage
