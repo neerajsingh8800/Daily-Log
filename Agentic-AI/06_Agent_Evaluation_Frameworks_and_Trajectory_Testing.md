@@ -27,8 +27,7 @@ To quantify how well an agent executes a task compared to an expert or a baselin
 ### A. Trajectory Efficiency Score
 Let $T_{\text{actual}}$ be the number of steps taken by the agent, and $T_{\text{optimal}}$ be the minimal theoretical steps required to resolve the objective.
 
-$$E_t = \max\left(0, 1 - \frac{T_{\text{actual}} - T_{\text{optimal}}}{T_{\text{max_allowed}}}\right)$$
-
+$$E_t = \max\left(0, 1 - \frac{T_{\text{actual}} - T_{\text{optimal}}}{T_{\text{max-allowed}}}\right)$$
 * A score of $1.0$ indicates perfect execution efficiency.
 * A score approaching $0.0$ signifies heavy loop redundancy or near-failure.
 
