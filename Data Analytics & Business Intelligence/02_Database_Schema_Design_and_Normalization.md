@@ -44,7 +44,11 @@ The industry standard for data warehousing. It consists of two types of tables:
 A variation of the Star Schema where the Dimension tables are themselves normalized. 
 * **Trade-off:** It saves storage space but requires more complex joins.
 * **Storage Math:** The storage size $S$ of a schema can be modeled as:
-  $$S = (N_{\text{facts}} \cdot C_{\text{fact}}) + \sum_{i=1}^{k} (N_{\text{dim}_i} \cdot C_{\text{dim}_i})$$
+
+  $$
+  S = (N_{\text{facts}} \cdot C_{\text{fact}}) + \sum_{i=1}^{k} (N_{\text{dim}_i} \cdot C_{\text{dim}_i})
+  $$
+
   *(Where $N$ is row count and $C$ is average row byte size. Snowflaking reduces the $C_{\text{dim}}$ factor by stripping redundant strings, but modern data warehouses prefer the compute speed of a Star schema over the storage savings of a Snowflake).*
 
 ---
