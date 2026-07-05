@@ -43,7 +43,7 @@ This is a guaranteed interview question for any Data Analyst or BI Engineering r
 
 Building upon the Star Schema from Module 02, here are the essential DAX patterns for an enterprise E-commerce dashboard.
 
-### A. Base Measures (Always hide the raw fact table columns)
+## A. Base Measures (Always hide the raw fact table columns)
 Instead of dragging `Fact_Sales[TotalRevenue]` onto a visual, always create an explicit measure.
 
 ```dax
