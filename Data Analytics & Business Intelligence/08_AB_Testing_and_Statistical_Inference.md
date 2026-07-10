@@ -31,8 +31,9 @@ The most common A/B test in e-commerce is testing **Conversion Rates** (e.g., cl
 First, calculate the **Pooled Proportion** ($\hat{p}$), which is the overall conversion rate across both groups:
 
 $$
-\hat{p} = \frac{X_A + X_B}{N_A + N_B}
+\hat{p} = \frac{X_{A} + X_{B}}{N_{A} + N_{B}}
 $$
+
 *(Where $X$ is the number of conversions, and $N$ is the total number of visitors in each group).*
 
 Next, calculate the **Standard Error** (SE) of the difference between the two groups:
