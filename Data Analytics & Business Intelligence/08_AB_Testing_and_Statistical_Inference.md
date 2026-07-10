@@ -34,7 +34,7 @@ $$
 \hat{p} = \frac{X_{A} + X_{B}}{N_{A} + N_{B}}
 $$
 
-*(Where $X$ is the number of conversions, and $N$ is the total number of visitors in each group).*
+*(Where X is the number of conversions, and N is the total number of visitors in each group).*
 
 Next, calculate the **Standard Error** (SE) of the difference between the two groups:
 
