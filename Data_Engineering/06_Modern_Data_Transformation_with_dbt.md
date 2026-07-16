@@ -35,8 +35,7 @@ LEFT JOIN {{ ref('stg_payments') }} p ON o.order_id = p.order_id
 dbt supports multiple materialization strategies that dictate how compiled code blocks manifest physically inside the underlying data warehouse.
 
 The Incremental Cost Optimization FormulaTo evaluate if an analytical dataset should be updated incrementally rather than completely rebuilt every night, engineers apply the execution cost ratio metric:
-$$\text{Efficiency Ratio} = \frac{\text{Volume of New Rows Ingested Daily}}{\text{Total Historical Row Volume of Target Table}}$$$$
-\text{If } \text{Efficiency Ratio} \le 0.05 \implies \text{Apply Incremental Materialization Pattern}$$
+$$\text{Efficiency Ratio} = \frac{\text{Volume of New Rows Ingested Daily}}{\text{Total Historical Row Volume of Target Table}}$$$$\text{If } \text{Efficiency Ratio} \le 0.05 \implies \text{Apply Incremental Materialization Pattern}$$
 
 ## 4. Data Quality Governance: Automated Schema Testing
 
