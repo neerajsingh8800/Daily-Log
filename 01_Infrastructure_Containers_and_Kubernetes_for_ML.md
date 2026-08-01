@@ -104,10 +104,11 @@ RUN useradd -m -u 1000 mlrunner && chown -R mlrunner:mlrunner /app
 USER mlrunner
 
 ENTRYPOINT ["python3", "-m", "src.main"]
-4. Production Kubernetes Manifest: Dedicated GPU Node Affinity & Shm Volume
+```
+## 4. Production Kubernetes Manifest: Dedicated GPU Node Affinity & Shm Volume
 Here is a complete, production-grade Kubernetes Deployment manifest featuring GPU resource limits, node affinity, tolerations, health probes, and shared memory (/dev/shm) mount configurations.
 
-YAML
+```YAML
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -207,10 +208,12 @@ spec:
         - name: model-cache
           persistentVolumeClaim:
             claimName: pvc-model-weights-cache
-5. Automated Python Cluster Health Diagnostic Script
+```
+
+## 5. Automated Python Cluster Health Diagnostic Script
 This production-grade diagnostic script validates CUDA device availability, tests memory allocations, verifies PyTorch-accelerated matrix multiplication operations, and outputs structured JSON diagnostics for Kubernetes container readiness probes.
 
-Python
+```Python
 import sys
 import time
 import json
