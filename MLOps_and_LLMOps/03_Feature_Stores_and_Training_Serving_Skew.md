@@ -23,7 +23,7 @@ Let $E = \{(e_i, t_i)\}_{i=1}^N$ be an entity observation dataframe, where $e_i$
 
 The Point-in-Time feature value $f^*(e_i, t_i)$ selected for training is computed as:
 
-$$f^*(e_i, t_i) = \operatorname{arg\,max}_{\tau_j \le t_i} \{ \tau_j \mid e_j = e_i \}$$
+$$f^*(e_i, t_i) = \arg\max_{\tau_j \le t_i} \{ \tau_j \mid e_j = e_i \}$$
 
 $$\text{Constraint:} \quad \tau_j \le t_i \quad (\text{Prevents Future Data Leakage})$$
 
