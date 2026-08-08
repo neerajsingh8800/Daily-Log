@@ -1,4 +1,4 @@
-# Module 08 : Data Quality, Validation, and Schema Drift
+# Module 08: Data Quality, Validation, and Schema Drift
 
 In production MLOps and LLMOps, model performance is heavily bounded by the quality of input data—a concept often summarized as **"Garbage In, Garbage Out"**. As data pipelines scale, data models evolve, and real-world distributions shift, static data quality checks are insufficient.
 
