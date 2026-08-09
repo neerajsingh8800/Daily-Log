@@ -163,7 +163,7 @@ with DAG(
         bash_command='echo "Pipeline executed successfully and model promoted to registry."',
     )
 ```
- # Define DAG Dependencies
+ ## Define DAG Dependencies
   extract_data_task >> train_eval_task >> register_task >> notify_task
   
 ## 3. CI/CD & CML Integration with GitHub Actions
