@@ -12,7 +12,7 @@ This module covers the operational theory, mathematical formulation of pipeline 
 * **Traditional CI/CD**: Focuses on code validation, automated unit/integration testing, building artifacts (e.g., Docker images), and deploying software endpoints.
 * **MLOps Pipelines & CT**: Expands traditional CI/CD to include **Data, Code, and Model Artifacts**. It continuously monitors data triggers, orchestrates multi-step DAGs (Directed Acyclic Graphs), evaluates candidate models against production baselines, and automates canary/blue-green model deployments.
 
-* ### 1.2 Mathematical Formulation of Automated Retraining Triggers
+### 1.2 Mathematical Formulation of Automated Retraining Triggers
 
 In continuous training, pipelines are triggered periodically or dynamically based on data/performance metrics.
 
