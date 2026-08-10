@@ -1,4 +1,4 @@
-# Module 11: Agentic Workflows, Execution, and Tracing
+# Module 10: Agentic Workflows, Execution, and Tracing
 
 As LLMs transition from simple single-turn text generation to autonomous, goal-directed agents, managing execution state, tool reliability, loop convergence, and observability becomes critical. Unlike static chain-of-thought workflows, **agentic workflows** rely on dynamic state machines, persistent memory, cyclic loops, and multi-agent coordination.
 
