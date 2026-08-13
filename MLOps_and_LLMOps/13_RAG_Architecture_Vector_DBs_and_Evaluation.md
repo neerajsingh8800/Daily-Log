@@ -39,7 +39,9 @@ $$\text{Sim}_{\text{Dot}}(\mathbf{q}, \mathbf{d}) = \mathbf{q}^T \mathbf{d} = \s
    $$\text{Faithfulness} = \frac{\text{Number of Claims in } A \text{ Supported by } C}{\text{Total Claims in } A}$$
 
 3. **Answer Relevance**: Measures how well the output response $A$ addresses the original query $Q$:
+
 $$\text{Answer Relevance} = \frac{1}{N} \sum_{i=1}^{N} \text{Sim}_{\text{Cosine}}(E_q, E_{g, i})$$
+
 *Where $E_q$ is the original query embedding and $E_{g, i}$ are the embeddings of $N$ synthetic questions generated back from answer $A$.*
 ---
 
