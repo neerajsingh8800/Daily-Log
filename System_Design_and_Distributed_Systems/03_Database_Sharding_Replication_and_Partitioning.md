@@ -26,7 +26,8 @@ $$\text{Shard ID} = \text{hash}(\text{Key}) \bmod N$$
 
 Where $N$ is the number of database nodes. **Problem**: If $N$ changes (a node is added or removed), almost $100\%$ of keys remap to new shards, causing catastrophic database re-indexing and cache invalidation.
 
-#### Consistent Hashing Ring Formula
+### Consistent Hashing Ring Formula
+
 Consistent Hashing maps both **Database Nodes** and **Keys** onto an abstract $2^{32} - 1$ mathematical ring using a cryptographic hash function (e.g., MD5 or SHA-256):
 
 $$\theta_{\text{node}} = \text{hash}(\text{Node\_IP}) \pmod{2^{32}}$$
