@@ -174,4 +174,4 @@ if __name__ == "__main__":
 * X-RateLimit-Reset: Unix timestamp when bucket refills completely.
 * Retry-After: Seconds client must wait before making another request (on HTTP 429).
 
-** Graceful Degradation: On Redis failure, configure API Gateway to fail open (allow requests with local log alerts) to prevent complete service outages.
+* Graceful Degradation: On Redis failure, configure API Gateway to fail open (allow requests with local log alerts) to prevent complete service outages.
