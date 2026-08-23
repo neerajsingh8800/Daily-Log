@@ -69,7 +69,7 @@ pip install httpx fastapi uvicorn
 ```
 
 ### Python Implementation (distributed_tracer.py)
-```pyhton
+```python
 import time
 import uuid
 import random
