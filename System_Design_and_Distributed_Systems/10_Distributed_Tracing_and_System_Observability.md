@@ -21,17 +21,16 @@ This module covers the core pillars of observability (Metrics, Logs, Traces), W3
 
 ### 1.2 Mathematical Foundations
 
-### 1. W3C Trace Context Header Format
-
+#### 1. W3C Trace Context Header Format
 Distributed context propagation standardizes headers across vendor boundaries via the W3C `traceparent` specification:
 
-$$\text{traceparent} = \text{version} - \text{trace\_id} - \text{parent\_id} - \text{trace\_flags}$$
+$$\mathtt{traceparent} = \mathtt{version} - \mathtt{trace\_id} - \mathtt{parent\_id} - \mathtt{trace\_flags}$$
 
 Where:
 * `version`: 2 hex characters ($8\text{ bits}$, e.g., `00`).
-* $\text{trace\_id}$: 32 hex characters ($128\text{ bits}$ globally unique ID).
-* $\text{parent\_id}$: 16 hex characters ($64\text{ bits}$ parent span ID).
-* $\text{trace\_flags}$: 8-bit field (e.g., `01` indicates the trace was sampled).
+* `trace_id`: 32 hex characters ($128\text{ bits}$ globally unique ID).
+* `parent_id`: 16 hex characters ($64\text{ bits}$ parent span ID).
+* `trace_flags`: 8-bit field (e.g., `01` indicates the trace was sampled).
 
 #### 2. Probabilistic Head-Based Sampling Math
 To manage storage and network ingestion overhead, tracing systems sample a fraction $P \in (0, 1]$ of requests at the entry gateway (Head Sampling). The probability that a trace is sampled across $N$ independent requests follows a Binomial Distribution. The probability of collecting at least one trace for a rare bug occurring with frequency $q$ over $M$ total requests is:
