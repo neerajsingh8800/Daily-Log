@@ -25,12 +25,12 @@ This module covers distributed locking paradigms (Redis Redlock, etcd leases, Zo
 
 ### 1.2 Mathematical Foundations & Fencing Tokens
 
-#### 1. Effective Lease Validity Equation (Redlock Safety Window)
+### 1. Effective Lease Validity Equation (Redlock Safety Window)
 Let $T_{\text{TTL}}$ be the initial lock lease duration, $T_{\text{start}}$ be the timestamp before sending the first acquire request, and $T_{\text{end}}$ be the timestamp after receiving the majority quorum response.
 
 Let $\Delta T_{\text{drift}}$ be the maximum expected clock drift between nodes, calculated as:
 
-$$\Delta T_{\text{drift}} = (T_{\text{TTL}} \cdot \delta_{\text{clock}}) + \text{drift\_margin}$$
+$$\Delta T_{\text{drift}} = (T_{\text{TTL}} \cdot \delta_{\text{clock}}) + \mathtt{drift\_margin}$$
 
 Where $\delta_{\text{clock}}$ is the clock drift percentage (e.g., 0.01%). The effective time $T_{\text{valid}}$ remaining on the lease is:
 
