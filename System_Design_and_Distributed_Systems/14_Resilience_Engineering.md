@@ -27,9 +27,9 @@ This module covers core resilience engineering patterns: **Circuit Breakers** (S
  
   * ---
 
-### 1.2 Mathematical Foundations
+## 1.2 Mathematical Foundations
 
-#### 1. Exponential Backoff with Full Jitter Formula
+### 1. Exponential Backoff with Full Jitter Formula
 For a retry attempt $n \in \{1, 2, \dots, N_{\text{max}}\}$, a base backoff delay $T_{\text{base}}$, and a maximum delay ceiling $T_{\text{max}}$:
 
 The deterministic exponential delay $T_{\text{exp}}$ is:
@@ -42,18 +42,18 @@ $$T_{\text{wait}}(n) = \text{Uniform}\left(0, \; \min\left(T_{\text{max}}, \; T_
 
 Applying **Equal Jitter** balances deterministic backoff with randomness:
 
-$$T_{\text{wait\_equal}}(n) = \frac{T_{\text{exp}}(n)}{2} + \text{Uniform}\left(0, \; \frac{T_{\text{exp}}(n)}{2}\right)$$
+$$T_{\mathtt{wait\_equal}}(n) = \frac{T_{\text{exp}}(n)}{2} + \text{Uniform}\left(0, \; \frac{T_{\text{exp}}(n)}{2}\right)$$
 
-#### 2. Sliding Window Failure Rate Evaluation
+### 2. Sliding Window Failure Rate Evaluation
 For a rolling window of $N_{\text{total}}$ recent executions containing $N_{\text{failures}}$ failed executions:
 
 $$\text{Failure Rate } R_{\text{fail}} = \frac{N_{\text{failures}}}{N_{\text{total}}}$$
 
 The Circuit Breaker transitions from **Closed** to **Open** if:
 
-$$N_{\text{total}} \ge N_{\text{min\_requests}} \quad \text{AND} \quad R_{\text{fail}} \ge \Theta_{\text{threshold}}$$
+$$N_{\text{total}} \ge N_{\mathtt{min\_requests}} \quad \text{AND} \quad R_{\text{fail}} \ge \Theta_{\text{threshold}}$$
 
-Where $N_{\text{min\_requests}}$ is the minimum execution volume required before evaluating the failure rate threshold $\Theta_{\text{threshold}} \in (0, 1]$.
+Where $N_{\mathtt{min\_requests}}$ is the minimum execution volume required before evaluating the failure rate threshold $\Theta_{\text{threshold}} \in (0, 1]$.
 
 ---
 
