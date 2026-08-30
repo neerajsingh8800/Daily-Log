@@ -36,12 +36,11 @@ $$\text{Response}(k) = \{ \text{"jsonrpc"}: \text{"2.0"}, \; \text{"id"}: k, \; 
 Where error conditions yield $\text{"error"}: \{ \text{"code"}: c, \text{"message"}: m \}$.
 
 #### 2. Entropy / Context Window Overhead Formula
-Let $T_{\text{schema}}$ be the total token count of all tools exposed by an MCP Server $S$. If an MCP Client connects to $N$ servers, the base system prompt token budget $B_{\text{system}}$ scales additively:
+Let $T_{\mathtt{schema}}$ be the total token count of all tools exposed by an MCP Server $S$. If an MCP Client connects to $N$ servers, the base system prompt token budget $B_{\mathtt{system}}$ scales additively:
 
-$$B_{\text{system}} = B_{\text{base}} + \sum_{i=1}^{N} \sum_{t \in \text{Tools}(S_i)} \text{Tokens}(\text{JSONSchema}(t))$$
+$$B_{\mathtt{system}} = B_{\mathtt{base}} + \sum_{i=1}^{N} \sum_{t \in \text{Tools}(S_i)} \text{Tokens}(\text{JSONSchema}(t))$$
 
-Dynamic tool discovery filters tools dynamically using embedding search to ensure $B_{\text{system}} \le B_{\text{max\_context}}$.
-
+Dynamic tool discovery filters tools dynamically using embedding search to ensure $B_{\mathtt{system}} \le B_{\mathtt{max\_context}}$.
 ---
 
 ## 2. Agent Communication Architectures Comparison
