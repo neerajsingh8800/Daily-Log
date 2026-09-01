@@ -31,7 +31,9 @@ Modern enterprise guardrails guarantee *100% syntactically correct structured ge
 #### 1. Constrained Softmax Probability Distribution
 Given raw unconstrained logit values $z_t(v)$ for each vocabulary token $v \in V$, state $q_t \in Q$, and set of valid next tokens $V_{\text{valid}}(q_t) \subseteq V$:
 
-$$P(x_t = v \mid x_{<t}, q_t) = \begin{cases} \frac{\exp(z_t(v))}{\sum_{u \in V_{\text{valid}}} \exp(z_t(u))}, & \text{if } v \in V_{\text{valid}} \\ 0, & \text{otherwise} \end{cases}$$
+$$
+P(x_t = v \mid x_{<t}, q_t) = \begin{cases} \frac{\exp(z_t(v))}{\sum_{u \in V_{\text{valid}}} \exp(z_t(u))}, & \text{if } v \in V_{\text{valid}} \\ 0, & \text{otherwise} \end{cases}
+$$
 
 #### 2. Pushdown Automaton State Transition Mapping
 A Pushdown Automaton enforcing a Context-Free Grammar is defined as a tuple $M = (Q, \Sigma, \Gamma, \delta, q_0, Z_0, F)$, where:
