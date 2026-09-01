@@ -29,14 +29,10 @@ Modern enterprise guardrails guarantee **100% syntactically correct structured g
 ## 1.2 Mathematical Foundations
 
 ### 1. Constrained Softmax Probability Distribution
-Given raw unconstrained logit values $z_t(v)$ for each vocabulary token $v \in V$, state $q_t \in Q$, and set of valid next tokens $V_{\text{valid}}(q_t) \subseteq V$:
+Given raw unconstrained logit values $z_t(v)$ for each vocabulary token $v \in V$, state $q_t \in Q$, and set of valid next tokens $V_{\mathrm{valid}}(q_t) \subseteq V$:
 
 $$
-P(x_t = v \mid x_{<t}, q_t) = 
-\begin{cases} 
-\frac{\exp(z_t(v))}{\sum_{u \in V_{\text{valid}}(q_t)} \exp(z_t(u))}, & \text{if } v \in V_{\text{valid}}(q_t) \\ 
-0, & \text{otherwise} 
-\end{cases}
+P(x_t = v \mid x_{<t}, q_t) = \begin{cases} \frac{\exp(z_t(v))}{\sum_{u \in V_{\mathrm{valid}}(q_t)} \exp(z_t(u))}, & \text{if } v \in V_{\mathrm{valid}}(q_t) \\ 0, & \text{otherwise} \end{cases}
 $$
 
 ### 2. Pushdown Automaton State Transition Mapping
@@ -47,10 +43,10 @@ A Pushdown Automaton enforcing a Context-Free Grammar is defined as a tuple $M =
 * $\Gamma$: Stack alphabet.
 * $\delta$: Transition function $Q \times (\Sigma \cup \{\epsilon\}) \times \Gamma \rightarrow P(Q \times \Gamma^*)$.
 
-The valid token set $V_{\text{valid}}(q_t, \gamma_t)$ for state $q_t$ and stack top $\gamma_t \in \Gamma$ is:
+The valid token set $V_{\mathrm{valid}}(q_t, \gamma_t)$ for state $q_t$ and stack top $\gamma_t \in \Gamma$ is:
 
 $$
-V_{\text{valid}}(q_t, \gamma_t) = \{ v \in \Sigma \mid \exists (q', \alpha) \in \delta(q_t, v, \gamma_t) \}
+V_{\mathrm{valid}}(q_t, \gamma_t) = \{ v \in \Sigma \mid \exists (q', \alpha) \in \delta(q_t, v, \gamma_t) \}
 $$
 ---
 
