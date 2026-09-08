@@ -207,4 +207,4 @@ if __name__ == "__main__":
 
 * Input Pre-processing & Gaussian Blurring: Apply lightweight, non-differentiable pre-processing filters (such as random JPEG compression, spatial smoothing, or median filtering) to input images before passing them to the visual encoder to disrupt fine-grained $L_\infty$ pixel noise.
 * Randomized Resizing: Randomly scale visual inputs prior to model encoding during inference pipelines to alter spatial gradient alignments exploited by fixed-grid PGD attacks.
-* Cross-Modal Latent Space Guardrails: Apply intermediate safety classification heads directly to projected visual token embeddings ($\mathbf{Z}_v = \mathbf{W}_p \cdot E_v(\mathbf{X})$) before feeding them into the autoregressive text generation loop.
+* Cross-Modal Latent Space Guardrails: Apply intermediate safety classification heads directly to projected visual token embeddings ($$\mathbf{Z}_v = \mathbf{W}_p \cdot E_v(\mathbf{X})$$) before feeding them into the autoregressive text generation loop.
