@@ -151,7 +151,7 @@ if __name__ == "__main__":
         print(f"Intercepted: {e}\n")
 ```
 
-Example 2: MCP Host Shield - Tool Shadowing, Rug Pull Detector & Schema Locker
+### Example 2: MCP Host Shield - Tool Shadowing, Rug Pull Detector & Schema Locker
 ```python
 import hashlib
 import json
